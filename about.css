@@ -52,3 +52,9 @@ img {
   margin-top: 15px;
   margin-left: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+      width: 70%;
+    }
+  }
