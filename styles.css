@@ -65,12 +65,44 @@ li {
 }
 
 .page-wrap h1 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+h1 {
+  border-right: solid 15px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  margin: 0 auto;
+}
+
+/* Animation */
+h1 {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 542px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(169, 169, 169,1);}
+  to{border-right-color: transparent;}
 }
 
 .page-wrap p {
-  font-size: 1.75rem;
-  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-family: 'Helvetica', serif;
   margin-bottom: 50px;
 }
 
@@ -90,6 +122,24 @@ h1 {
 .navbar-toggler {
   align-items: flex-end;
   width: 60px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .page-wrap h1 {
+    font-size: 3.5rem;
+  }
+  .page-wrap p {
+    font-size: 1.25rem;
+  }
+
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 385px;}
+  }
+  button {
+    width: 300px;
+  }
 }
 
 
