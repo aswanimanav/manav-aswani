@@ -147,6 +147,9 @@ h1 {
     .navbar-brand {
       width: 250px;
     }
+    section {
+      background-position: 60% 50%;
+    }
   }
 
 
