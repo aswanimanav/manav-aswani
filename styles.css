@@ -140,7 +140,14 @@ h1 {
   button {
     width: 300px;
   }
+
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+      width: 250px;
+    }
+  }
 
 
 
