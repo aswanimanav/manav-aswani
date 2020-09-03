@@ -127,7 +127,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .page-wrap h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .page-wrap p {
     font-size: 1.25rem;
@@ -135,7 +135,7 @@ h1 {
 
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 385px;}
+    to{width: 360px;}
   }
   button {
     width: 300px;
