@@ -35,9 +35,6 @@ li {
     transition: background-color 500ms;
 }
 
-h1 {
-
-}
 
 h6 p {
   line-height: 1.75;
@@ -49,12 +46,94 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   width: 75%;
-  margin-top: 15px;
-  margin-left: 25px;
 }
+
+.me img {
+  float: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  
+}
+
+footer {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.made {
+  font-size: 1.25rem;
+  color: #0f0f0f;
+}
+
+.email {
+  text-align: center;
+}
+
+.email a {
+  color: #0f0f0f;
+}
+
+.email a:hover {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+
+.social {
+  text-align: right;
+}
+
+.social a {
+  color: #0f0f0f;
+}
+
+.fa-linkedin-in:hover {
+  color: #2867B2;
+}
+
+.fa-instagram:hover {
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-dribbble:hover {
+  color: #ea4c89;
+}
+
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
       width: 70%;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+
+    .me img {
+      margin-right: 4rem;
+    }
+
+    .social {
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 5%;
+    }
+
+    .email {
+      text-align: center;
+    }
+
+    .made {
+      text-align: center;
     }
   }
