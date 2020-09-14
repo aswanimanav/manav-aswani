@@ -1,8 +1,12 @@
+* {
+  outline: none;
+}
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+
 }
 
 #pageHero {
@@ -12,7 +16,7 @@ html, body {
   background-repeat: no-repeat;
   color: white;
   position: relative;
-  height: 682px;
+  height: 722px;
 }
 
 
@@ -74,13 +78,9 @@ li {
   text-align: center;
 }
 
-.page-wrap h1 {
-  margin-bottom: 25px;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-h1 {
+#pageHero h1 {
   border-right: solid 15px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
@@ -88,10 +88,13 @@ h1 {
   font-size: 28px;
   color: rgba(255,255,255,.70);
   margin: 0 auto;
+  font-weight: 700;
+  font-size: 5em;
+  margin-bottom: 25px;
 }
 
 /* Animation */
-h1 {
+#pageHero h1 {
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
 }
@@ -124,24 +127,85 @@ button {
   margin: 0 auto;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 5em;
-}
-
 .navbar-toggler {
   align-items: flex-end;
   width: 60px;
+}
+
+.container-fluid {
+  padding: 100px 0;
+  background-color: #F8F8F8;
+}
+
+#portfolioHeader {
+  text-align: center;
+  width: 75%;
+  margin: 0px auto;
+}
+
+#portfolioHeader h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+#portfolioHeader p {
+  font-size: 1.25rem;
+  text-justify: center;
+  margin-top: 25px;
+  color: #706F6F;
+}
+
+.btn-md {
+  margin: 5px 10px;
+  padding: 10px 10px;
+  color: #4387f7;
+  border-color: #4387f7;
+  outline: none;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+#myWork {
+  text-align: center;
+}
+
+#myWork img {
+  margin-top: 6rem;
+  width: 75%;
+}
+
+#myWork h3 {
+  font-weight: 100;
+}
+
+#myWork .projectTitle {
+  margin-top: 75px;
+  font-weight: 300;
+}
+
+#myWork .projectDesc {
+  margin: 30px auto;
+  width: 50%;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+#gidlyHr {
+  width: 40px;
+  background-color: #f8f8f8;
 }
 
 
 
 
 @media screen and (max-width: 600px) {
-  .page-wrap h1 {
+  #pageHero h1 {
     font-size: 3rem;
   }
-  .page-wrap p {
+  #pageHero p {
     font-size: 1.25rem;
   }
 
@@ -152,6 +216,20 @@ h1 {
   button {
     width: 300px;
   }
+
+  #portfolioHeader {
+    width: 90%;
+
+  }
+
+  #portfolioHeader h1 {
+    font-size: 2.5rem;
+  }
+
+  #portfolioHeader p {
+    font-size: 1rem;
+  }
+
 
 }
 
