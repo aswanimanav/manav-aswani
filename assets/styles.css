@@ -1,21 +1,24 @@
-section {
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#pageHero {
   background-image: url('../imgs/page-hero.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   position: relative;
-  height: 100%;
-}
-
-html, body {
-    height: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+  height: 682px;
 }
 
 
 /*  NAVBAR  */
+
+
 
 .navbar-brand {
   width: 30%;
@@ -30,6 +33,17 @@ html, body {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
+    transition: 0.25s;
+}
+
+
+.active {
+  
+  width: 100%;
+  
+  background:#92B9F8;
+  opacity: 1;
+  color: white;
 }
 
 li {
@@ -46,10 +60,6 @@ li {
     font-weight: 700;
 }
 
-.navbar.scrolled {
-    background-color: rgb(222, 192, 222);
-    transition: background-color 500ms;
-}
 
 
 /*  PAGE HERO  */
@@ -125,6 +135,8 @@ h1 {
 }
 
 
+
+
 @media screen and (max-width: 600px) {
   .page-wrap h1 {
     font-size: 3rem;
@@ -147,7 +159,7 @@ h1 {
     .navbar-brand {
       width: 250px;
     }
-    section {
+    #pageHero {
       background-position: 60% 50%;
     }
   }
