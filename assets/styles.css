@@ -2,6 +2,10 @@
   outline: none;
 }
 
+.btn {
+  font-family: 'Helvetica'
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
