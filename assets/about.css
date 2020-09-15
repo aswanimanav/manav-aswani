@@ -35,6 +35,9 @@ li {
     transition: background-color 500ms;
 }
 
+.scroll-link:hover {
+  cursor: pointer;
+}
 
 h6 p {
   line-height: 1.75;
@@ -83,6 +86,10 @@ footer {
   text-decoration: none;
 }
 
+.fab {
+  color: black;
+}
+
 
 .social {
   text-align: right;
@@ -96,14 +103,8 @@ footer {
   color: #2867B2;
 }
 
-.fa-instagram:hover {
-  color: transparent;
-  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
+.fa-github:hover {
+  color: black;
 }
 
 .fa-dribbble:hover {
