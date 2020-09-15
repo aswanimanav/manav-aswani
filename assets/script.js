@@ -8,3 +8,12 @@ $(document).ready(function(){
    }})
 });
 
+var scrollLinks = document.querySelectorAll(".scroll-link");
+for(var i = 0; i < scrollLinks.length; i++) {
+	scrollLinks[i].addEventListener("click", function(){
+    window.scroll({
+		  top: 680,
+		  behavior: 'smooth'
+	});
+})
+}

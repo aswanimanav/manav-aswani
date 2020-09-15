@@ -42,9 +42,7 @@ html, body {
 
 
 .active {
-  
   width: 100%;
-  
   background:#92B9F8;
   opacity: 1;
   color: white;
@@ -62,6 +60,10 @@ li {
 #mainNavbar .navbar-brand {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+.scroll-link:hover {
+  cursor: pointer;
 }
 
 
