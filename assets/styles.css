@@ -234,6 +234,67 @@ a:hover {
 
 
 
+footer {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.made {
+  font-size: 1.25rem;
+  color: #0f0f0f;
+}
+
+.email {
+  text-align: center;
+}
+
+.email a {
+  color: #0f0f0f;
+}
+
+.email a:hover {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+.fab {
+  color: black;
+}
+
+
+.social {
+  text-align: right;
+}
+
+.social a {
+  color: #0f0f0f;
+}
+
+.fa-linkedin-in:hover {
+  color: #2867B2;
+}
+
+.fa-github:hover {
+  color: black;
+}
+
+.fa-dribbble:hover {
+  color: #ea4c89;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   #pageHero h1 {
@@ -284,6 +345,22 @@ a:hover {
     iframe {
     height: 20rem;
   }
+  }
+
+  @media screen and (max-width: 992px) {
+      .social {
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 5%;
+    }
+
+    .email {
+      text-align: center;
+    }
+
+    .made {
+      text-align: center;
+    }
   }
 
 
