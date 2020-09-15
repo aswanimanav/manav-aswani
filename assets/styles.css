@@ -2,10 +2,6 @@
   outline: none;
 }
 
-.btn {
-  font-family: 'Helvetica'
-}
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -27,7 +23,6 @@ html, body {
 /*  NAVBAR  */
 
 
-
 .navbar-brand {
   width: 30%;
 }
@@ -37,13 +32,11 @@ html, body {
   margin-left: 1%;
 }
 
-
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
     transition: 0.25s;
 }
-
 
 .active {
   width: 100%;
@@ -56,15 +49,10 @@ li {
 	margin: 0 20px;
 }
 
-
 #mainNavbar .nav-link {
     color: white;
 }
 
-#mainNavbar .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
 
 .navbar-toggler {
   align-items: flex-end;
@@ -133,12 +121,12 @@ li {
 
 button {
   width: 200px;
-  font-family: 'Helvetica';
+  font-family: 'Helvetica', serif;
   text-transform: uppercase;  
   margin: 0 auto;
 }
 
-/*PORTFOLIO*/
+/* PORTFOLIO */
 
 .container-fluid {
   padding: 100px 0;
@@ -161,7 +149,7 @@ button {
   font-size: 1.25rem;
   text-justify: center;
   margin-top: 25px;
-  color: #706F6F;
+  color: #0f0f0f;
 }
 
 .btn-md {
@@ -201,19 +189,20 @@ input[type="button"]:focus {
   font-weight: 300;
 }
 
+hr {
+  background-color: #f8f8f8;
+}
+
 #gidlyHr {
   width: 40px;
-  background-color: #f8f8f8;
 }
 
-#qcHr {
+#qcHr, #beHr {
   width: 100px;
-  background-color: #f8f8f8;
 }
 
-#beHr {
-  width: 100px;
-  background-color: #f8f8f8;
+#scrHr {
+  width: 75px;
 }
 
 .btn-single {
@@ -232,7 +221,7 @@ a:hover {
   text-decoration: none;
 }
 
-
+/* FOOTER */
 
 footer {
   margin-top: 5%;
@@ -257,12 +246,11 @@ footer {
 }
 
 .email a:hover {
-  color: #0f0f0f;
   text-decoration: none;
 }
 
 .fab {
-  color: black;
+  color: #0f0f0f;
 }
 
 
@@ -270,17 +258,11 @@ footer {
   text-align: right;
 }
 
-.social a {
-  color: #0f0f0f;
-}
 
 .fa-linkedin-in:hover {
   color: #2867B2;
 }
 
-.fa-github:hover {
-  color: black;
-}
 
 .fa-dribbble:hover {
   color: #ea4c89;
@@ -289,11 +271,7 @@ footer {
 
 
 
-
-
-
-
-
+/* MEDIA QUERIES */
 
 
 @media screen and (max-width: 600px) {
@@ -343,7 +321,7 @@ footer {
       background-position: 60% 50%;
     }
     iframe {
-    height: 20rem;
+    height: 15rem;
   }
   }
 
