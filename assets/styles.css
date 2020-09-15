@@ -207,6 +207,11 @@ input[type="button"]:focus {
   background-color: #f8f8f8;
 }
 
+#beHr {
+  width: 100px;
+  background-color: #f8f8f8;
+}
+
 .btn-single {
   margin: 1rem auto;
   display: block;
