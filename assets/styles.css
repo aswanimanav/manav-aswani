@@ -16,7 +16,7 @@ html, body {
   background-repeat: no-repeat;
   color: white;
   position: relative;
-  height: 722px;
+  height: 100vh;
 }
 
 
@@ -126,6 +126,10 @@ button {
   margin: 0 auto;
 }
 
+.src-links {
+  display: block;
+}
+
 /* PORTFOLIO */
 
 .container-fluid {
@@ -213,7 +217,7 @@ hr {
 iframe {
   margin: 6rem auto;
   width: 75%;
-  height: 30rem;
+  height: 75vh;
 }
  
 
