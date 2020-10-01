@@ -195,18 +195,7 @@ input[type="button"]:focus {
 
 hr {
   background-color: #f8f8f8;
-}
-
-#gidlyHr {
   width: 40px;
-}
-
-#qcHr, #beHr {
-  width: 100px;
-}
-
-#scrHr {
-  width: 75px;
 }
 
 .btn-single {
