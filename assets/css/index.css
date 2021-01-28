@@ -10,7 +10,7 @@ html, body {
 }
 
 #pageHero {
-  background-image: url('../imgs/page-hero.png');
+  background-image: url('../../imgs/page-hero.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,6 +212,10 @@ iframe {
 
 a:hover {
   text-decoration: none;
+}
+
+#lastBtn {
+  margin-bottom: 150px;
 }
 
 /* FOOTER */
