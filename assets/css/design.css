@@ -119,6 +119,53 @@ h2 {
 	 font-style: italic;
 }
  
+footer {
+  margin-top: 9.25%;
+  margin-bottom: 3%;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.made {
+  font-size: 1.25rem;
+  color: #0f0f0f;
+}
+
+.email {
+  text-align: center;
+}
+
+.email a {
+  color: #0f0f0f;
+}
+
+.email a:hover {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+.fab {
+  color: black;
+}
+
+
+.social {
+  text-align: right;
+}
+
+.social a {
+  color: #0f0f0f;
+}
+
+.fa-linkedin-in:hover {
+  color: #2867B2;
+}
+
+.fa-dribbble:hover {
+  color: #ea4c89;
+}
 
 
 /* MEDIA QUERIES */
@@ -131,7 +178,6 @@ h2 {
   }
 
   @media screen and (max-width: 992px) {
-
 
     .social {
       text-align: center;
