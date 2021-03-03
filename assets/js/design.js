@@ -10,8 +10,3 @@ $('.close').click(function () {
   return false;
 });
 
-$(".gallery ul li a").click(function () {
-  $('html, body').animate({
-    scrollTop: parseInt($("#top").offset().top)
-  }, 400);
-});
